@@ -17,11 +17,11 @@ public class Aula04Exm01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JanelaBotoes janela = new JanelaBotoes();
-        janela.setSize(200, 300);
-        janela.setLocationRelativeTo(null);
-        janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        janela.setVisible(true);
+        CalcEq calc = new CalcEq();
+        calc.setSize(400, 200);
+        calc.setLocationRelativeTo(null);
+        calc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        calc.setVisible(true);
     }
     
 }
