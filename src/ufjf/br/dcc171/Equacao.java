@@ -14,6 +14,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 
+
 public class Equacao extends JFrame {
     private final JButton calculate = new JButton("Calcular");
     private final JTextField inputa2 = new JTextField("", 10);
